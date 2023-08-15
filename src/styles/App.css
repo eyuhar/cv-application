@@ -1,0 +1,22 @@
+#left-side{
+  grid-column: 1/2;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  padding: 30px;
+}
+
+#right-side{
+  background-color: bisque;
+  grid-column: 2/3;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: flex-start;
+  width: 100%;
+}
+
+
